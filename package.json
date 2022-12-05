@@ -1,0 +1,39 @@
+{
+  "name": "codecare",
+  "version": "1.0.0",
+  "description": "lambda testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imokhnatskyy/codecare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imokhnatskyy/codecare/issues"
+  },
+  "homepage": "https://github.com/imokhnatskyy/codecare#readme",
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^4.18.2",
+    "husky": "^8.0.2",
+    "mysql2": "^2.3.3",
+    "prettier": "^2.8.0",
+    "sequelize": "^6.26.0",
+    "sequelize-cli": "^6.5.2",
+    "serverless": "^3.25.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint",
+    "*.{js,json,css,md,yml}": "prettier --write"
+  }
+}
