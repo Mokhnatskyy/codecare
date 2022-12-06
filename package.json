@@ -4,7 +4,12 @@
   "description": "lambda testing",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+        "start": "sls offline",
+    "lint": "eslint .",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:migrate:undo": "sequelize-cli db:migrate:undo:all",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

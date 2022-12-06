@@ -1,7 +1,7 @@
-const { DataTypes, DatabaseError } = require("sequelize");
-const fs = require("fs");
-const path = require("path");
-const Slot = require("../../db/models/slot");
+const { DataTypes } = require("sequelize");
+// const fs = require("fs");
+// const path = require("path");
+const { Slot } = require("../../db/models/slot");
 // const parseSQLFile = (file) =>
 //   fs
 //     .readFileSync(path.resolve(__dirname, `../sql/${file}.sql`), "utf8")
